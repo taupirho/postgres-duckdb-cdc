@@ -1,0 +1,11 @@
+[project]
+name = "postgres-duckdb-cdc"
+version = "0.1.0"
+description = "A small PostgreSQL-to-DuckDB CDC reference implementation"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=1.4.0",
+    "psycopg2-binary>=2.9.10",
+    "pytz>=2025.2",
+]
